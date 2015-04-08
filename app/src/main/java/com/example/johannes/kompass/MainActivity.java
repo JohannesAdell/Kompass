@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
         newActivityButton.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
 
-                // Start NewActivity.class
+                // Start new CompassActivity
                 Intent myIntent = new Intent(MainActivity.this,
                         CompassActivity.class);
                 startActivity(myIntent);
